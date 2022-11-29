@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.header{
+    width: 100%;
+    height: 100%;
+    background: white;
+    
+}
+
+.side-nav{
+    width: 250px;
+    height: 100%;
+    background: rgb(246, 246, 246);
+    position: fixed;
+    top:0;
+    left: 0;
+    padding: 20px 30px;
+}
+.inlogo{
+    color: black;
+    font-size: 30px;
+    width: 150px;
+}
+
+.logo{
+    display: block;
+    margin-bottom: 130px;
+text-decoration: none;
+}
+
+.nav-links{
+    list-style: none;
+    position: relative;
+}
+
+.nav-links li{
+    padding: 7px 0px;
+}
+.nav-links li a {
+    color: black;
+    text-decoration: none;
+    padding: 7px 14px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li a i {
+    font-size: 22px;
+    margin-right: 20px;
+
+
+}
+.active{
+    background: rgb(128, 215, 128);
+    width: 100%;
+    height: 47px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgb(193, 225, 193) ;
+    display: none;
+    transition: top 0.5s;
+
+    
+
+}
+
+.nav-links li:hover a{
+    font-weight: bold;
+    color: black;
+    transition: 0.3s;
+}
+
+.nav-links li:hover ~ .active{
+    display: block;
+
+}
+
+
+.nav-links li:nth-child(1):hover ~ .active{
+    top: 0;
+}
+.nav-links li:nth-child(2):hover ~ .active{
+    top: 20%;
+}
+.nav-links li:nth-child(3):hover ~ .active{
+    top: 40%;
+}
+.nav-links li:nth-child(4):hover ~ .active{
+    top: 60%;
+}
+.nav-links li:nth-child(5):hover ~ .active{
+    top: 80%;
+}
+
+.logo-icon{
+    font-size: 40px;
+    display: none;
+    width: 45px;
+    color: black;
+    text-align: center;
+}
+
+.say-hi{
+    margin-top: 20px;
+    margin-left: 270px;
+
+}
+.say-hi text{
+    font-size: 40px;
+}
+.say-hi button{
+    border-radius: 100px;
+    background-color: white;
+    border-color: rgb(247, 247, 247);
+    float: right;   
+    margin-right: 30px;
+    border-style:groove;
+    border-width: 1px;
+
+}
+.say-hi button i {
+    padding: 10px;
+    font-size: 30px;
+font-weight: lighter;
+}
+
+.say-hi img{
+    margin-right: 10px;
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 600px){
+    .side-nav{
+        width: 110px;
+    }
+    .logo-icon{
+        display: block;
+    }
+    .inlogo{
+        display: none;
+    }
+    .nav-links li a p {
+        display: none;
+    }
+
+    .nav-links li a i{
+        margin-right: 0;
+
+    }
+    .nav-links li a {
+        justify-content: center;
+    }
+    .say-hi{
+        margin-left: 130px;
+        margin-top: 20px;
+    }
+    .say-hi text{
+        font-size: 25px;
+    }
+    .say-hi img{
+        width: 40px;
+        height: 40px;
+        margin-right: 5px;
+    }
+    .say-hi button i {
+        font-size: 20px;
+
+    }
+}
+
+
+/* tablet */
+@media only screen and (max-width: 800px){
+    .say-hi text{
+        font-size: 25px;
+    }
+    .say-hi img{
+        width: 40px;
+        height: 40px;
+        margin-right: 5px;
+    }
+    .say-hi button i {
+        font-size: 20px;
+
+    }
+}
