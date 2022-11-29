@@ -1,5 +1,6 @@
-
-
+<?php 
+    $_SESSION['open']='clients';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +11,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>DASHBOARD</h1>
+    <h1>CLIENTS</h1>
     <?php include 'navigation.php'?>
 </body>
 </html>
