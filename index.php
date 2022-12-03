@@ -17,7 +17,7 @@
 </head>
 <body>
     <?php include "navigation.php" ?>
-  
+  <div class="page">
         <div class="say-hi">
             <text>
                 Witaj, Dawid 👋
@@ -28,6 +28,36 @@
                 <i class="material-symbols-outlined">notifications</i>
             </button>
             
+        </div>
+        <div class="summary">
+        
+            <text> Ogólny przegląd </text>
+
+            <div class="summary_items">
+            <div class="containter">
+            <i class="material-symbols-outlined">group</i>
+            <text> Odbiorcy</text>
+            <text class="value">12</text>
+            </div>
+            <div class="containter">
+            <i class="material-symbols-outlined">inventory_2</i>
+            <text> Produkty</text>
+            <text class="value">12</text>
+            </div>
+            <div class="containter">
+            <i class="material-symbols-outlined">request_page</i>
+            <text> Faktury</text>
+            <text class="value">12</text>
+            </div>
+            <div class="containter">
+            <i class="material-symbols-outlined">attach_money</i>
+            <text> Zafakturowane</text>
+            <text class="value">12</text>
+
+            </div>
+            </div>
+
+        </div>
         </div>
 </body>
 </html>
