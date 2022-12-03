@@ -33,6 +33,12 @@
     margin-bottom: 130px;
 text-decoration: none;
 }
+.menu_items{
+height: 60%;
+justify-content: space-evenly!important;
+align-content: space-between!important;
+
+}
 
 .nav-links{
     list-style: none;
@@ -56,6 +62,7 @@ text-decoration: none;
 
 
 }
+
 .active{
     background: rgb(128, 215, 128);
     width: 100%;
@@ -98,6 +105,7 @@ text-decoration: none;
 .nav-links li:nth-child(5):hover ~ .active{
     top: 80%!important;
 }
+
 
 .logo-icon{
     font-size: 40px;
