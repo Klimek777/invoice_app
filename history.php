@@ -14,11 +14,12 @@
 
 </head>
 <body>
-    <h1>HISTORY</h1>
+
     <?php include 'navigation.php'?>
     <div class="page">
-
-        <text class="test">Historia </text>>
+        <div class="say-hi">
+        <text> Historia </text>
+        </div>
     </div>
 </body>
 </html>
