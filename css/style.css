@@ -5,6 +5,7 @@
     font-family: 'Poppins', sans-serif;
 
 }
+
 .page{
     margin-left: 270px;
     margin-top: 20px;
@@ -14,6 +15,11 @@
     height: 100%;
     background: white;
     
+}
+.history_header{
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .side-nav{
@@ -240,7 +246,6 @@ display: flex;
 justify-content: center;
     align-items: center;
 
-
 }
 .company_icon i{
     color: white;
@@ -287,6 +292,72 @@ justify-content: center;
     color: white;
 }
 
+.time_button{
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: black;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.time_button text{
+    
+    color: white;
+    font-size: 18px;
+}
+.time_button i{
+    
+    color: white;
+    font-size: 18px;
+}
+.menage_buttons{
+    display: flex;
+}
+.info_icon{
+    background-color: grey;
+    border-radius: 100px;
+    height: 35px;
+    width: 35px;
+align-self: center;
+margin-left: 20px;
+display: flex;
+justify-content: center;
+    align-items: center;
+}
+.info_icon i{
+color: white;
+}
+.edit_icon{
+    background-color: orange;
+    border-radius: 100px;
+    height: 35px;
+    width: 35px;
+align-self: center;
+margin-left: 20px;
+display: flex;
+justify-content: center;
+    align-items: center;
+}
+.edit_icon i{
+color: white;
+}
+.delete_icon{
+    background-color: red;
+    border-radius: 100px;
+    height: 35px;
+    width: 35px;
+align-self: center;
+margin-left: 20px;
+display: flex;
+justify-content: center;
+    align-items: center;
+}
+.delete_icon i{
+color: white;
+}
 @media only screen and (max-width: 600px){
     .side-nav{
         width: 110px;
