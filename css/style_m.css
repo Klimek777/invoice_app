@@ -1,0 +1,23 @@
+.products_row{
+    height: 50px;
+    width: 90%;
+    background-color: rgb(230, 230, 230);
+    margin: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.product_name{
+    font-weight:bold!important;
+    color: black;
+    font-size: 14px;
+}
+
+.prod_description {
+    font-size: 12px;
+}
+
