@@ -33,6 +33,10 @@
     box-shadow: 2px 2px 2px 2px rgb(218, 216, 216);
 }
 
+#plus:hover{
+    opacity: 0.8;
+}
+
 #toptext1{
     float: left;
     margin-left: 600px;
@@ -44,7 +48,12 @@
     text-align: center;
     cursor: pointer;
     box-shadow: 2px 2px 2px 2px rgb(218, 216, 216);
+}
 
+#toptext1:hover{
+    background-color: #CCC;
+    color:#000000;
+    border: 1px solid #666;
 }
 
 #toptext2{
@@ -58,9 +67,14 @@
     text-align: center;
     cursor: pointer;
     box-shadow: 2px 2px 2px 2px rgb(218, 216, 216);
-
-
 }
+
+#toptext2:hover{
+    background-color: #CCC;
+    color:#000000;
+    border: 1px solid #666;
+}
+
 .customers_row1{
     height: 50px;
     width: 90%;
@@ -117,7 +131,7 @@
 }
 #grey{
     background-color: rgb(122, 122, 122);
-    color: #000000;
+    color: #FFFFFF;
     height:25px;
     width:25px;
     text-align: center;
@@ -132,11 +146,11 @@
     vertical-align: middle;
 }
 #grey:hover{
-    border: 1px solid black;
+    opacity: 0.9;
 }
 #yellow{
-    background-color: rgb(238, 238, 32);
-    color: #000000;
+    background-color: rgb(224, 161, 44);
+    color: #FFFFFF;
     height:25px;
     width:25px;
     text-align: center;
@@ -150,11 +164,11 @@
     align-items: center;
 }
 #yellow:hover{
-    border: 1px solid black;
+    opacity: 0.8;
 }
 #red{
     background-color: rgb(200, 58, 58);
-    color: #000000;
+    color: #FFFFFF;
     height:25px;
     width:25px;
     text-align: center;
@@ -168,7 +182,7 @@
     align-items: center;
 }
 #red:hover{
-    border: 1px solid black;
+    opacity: 0.8;
 }
 
 .adds{
