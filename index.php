@@ -35,7 +35,7 @@
 
             <div class="summary_items">
             <div class="containter">
-            <i class="material-symbols-outlined">group</i>
+            <i class="material-symbols-outlined">grade</i>
             <text> Odbiorcy</text>
             <text class="value">12</text>
             </div>
@@ -52,12 +52,42 @@
             <div class="containter">
             <i class="material-symbols-outlined">attach_money</i>
             <text> Zafakturowane</text>
-            <text class="value">12</text>
+            <text class="value_money">120 000 zł</text>
 
             </div>
             </div>
 
         </div>
+        <div class="recent_transactions">
+        <text>Ostatnie transakcje </text>
+        <div class="transactions_row">
+            <div class="company_icon">
+            <i class="material-symbols-outlined">attach_money</i>
+            </div>
+            <text class="company_name"> Dawid Corporantion SA</text>
+            <text class="company_date">22 Nov 2022</text>
+            <text class="company_name"> $ 2,700</text>
+            <div class="status_paid">
+                <text class="status">Opłacona</text>
+            </div>
+
+        </div>
+        <div class="transactions_row">
+            <div class="company_icon">
+            <i class="material-symbols-outlined">attach_money</i>
+            </div>
+            <text class="company_name"> Dawid Corporantion SA</text>
+            <text class="company_date">22 Nov 2022</text>
+            <text class="company_name"> $ 2,700</text>
+            <div class="status_paid">
+                <text class="status">Opłacona</text>
+            </div>
+
+        </div>
+
+
+        </div>
+
         </div>
 </body>
 </html>

@@ -5,6 +5,7 @@
     font-family: 'Poppins', sans-serif;
 
 }
+
 .page{
     margin-left: 270px;
     margin-top: 20px;
@@ -14,6 +15,11 @@
     height: 100%;
     background: white;
     
+}
+.history_header{
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .side-nav{
@@ -161,9 +167,10 @@ flex-wrap: wrap;
  height: 160px;
  width: 250px;
  background-color: black;
-margin: 20px;
+margin: 15px;
 border-radius: 30px;
-box-shadow: 5px 0px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 .value{
     font-size: 50px;
@@ -171,18 +178,25 @@ box-shadow: 5px 0px;
     text-align: end;
     margin-right: 50px;
 }
-
+.value_money{
+    font-size: 30px;
+    color: white;
+    text-align: end;
+margin-right: 30px;
+}
 .containter i {
     color: white;
     font-size: 30px;
     margin-left: 50px;
     margin-top: 20px;
+
 }
 
 .containter text{
     color: white;
     display: block;
     margin-left: 25px;
+    
 }
 
 .selected {
@@ -205,6 +219,145 @@ box-shadow: 5px 0px;
     -webkit-font-smoothing: antialiased;
 }
 
+.recent_transactions text{
+    font-weight: lighter;
+}
+.transactions_row{
+    height: 50px;
+    width: 90%;
+    background-color: rgb(230, 230, 230);
+    margin: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.company_icon{
+
+    background-color: black;
+    border-radius: 100px;
+    height: 35px;
+    width: 35px;
+align-self: center;
+margin-left: 20px;
+display: flex;
+justify-content: center;
+    align-items: center;
+
+}
+.company_icon i{
+    color: white;
+}
+.company_name{
+    
+    font-weight:bold!important;
+
+    color: black;
+    font-size: 18px;
+}
+
+.status_paid{
+    background-color:rgb(128, 215, 128);
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    border-radius: 30px;
+    
+}
+.status_waiting{
+    background-color:rgb(235, 152, 29);
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    border-radius: 30px;
+    
+}
+.status_notpaid{
+    background-color:rgb(235, 29, 29);
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    border-radius: 30px;
+    
+}
+.status {
+    color: white;
+}
+
+.time_button{
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: black;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.time_button text{
+    
+    color: white;
+    font-size: 18px;
+}
+.time_button i{
+    
+    color: white;
+    font-size: 18px;
+}
+.menage_buttons{
+    display: flex;
+}
+.info_icon{
+    background-color: grey;
+    border-radius: 100px;
+    height: 35px;
+    width: 35px;
+align-self: center;
+margin-left: 20px;
+display: flex;
+justify-content: center;
+    align-items: center;
+}
+.info_icon i{
+color: white;
+}
+.edit_icon{
+    background-color: orange;
+    border-radius: 100px;
+    height: 35px;
+    width: 35px;
+align-self: center;
+margin-left: 20px;
+display: flex;
+justify-content: center;
+    align-items: center;
+}
+.edit_icon i{
+color: white;
+}
+.delete_icon{
+    background-color: red;
+    border-radius: 100px;
+    height: 35px;
+    width: 35px;
+align-self: center;
+margin-left: 20px;
+display: flex;
+justify-content: center;
+    align-items: center;
+}
+.delete_icon i{
+color: white;
+}
 @media only screen and (max-width: 600px){
     .side-nav{
         width: 110px;
@@ -242,11 +395,57 @@ box-shadow: 5px 0px;
         font-size: 20px;
 
     }
+    .company_icon{
+        width: 25px;
+        height: 25px;
+        margin-left: 10px;
+        margin-right: 5px;
+        margin-top: 2px;
+    }
+    .company_name{
+        font-size: 14px;
+        margin-right: 5px;
+    }
+    .company_date{
+        font-size: 12px;
+    }
+    .status_paid{
+        margin-bottom: 5px;
+        width: 70px;
+        height: 20px;
+
+    }
+    .status{
+        font-size: 14px;
+    }
+    .containter{
+        height: 100px!important;
+        width: 150px!important;
+    }
+    .value{
+        font-size: 16px!important;
+
+        margin-right: 50px;
+    }
+    
+    .containter i {
+
+        font-size: 20px;
+        margin-left: 50px;
+        margin-top: 20px;
+    
+    }
+    
+    .containter text{
+        margin-left: 25px;
+        font-size: 15px;
+    }
+    
 }
 
 
 /* tablet */
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 1024px){
     .say-hi text{
         font-size: 25px;
     }
@@ -259,4 +458,33 @@ box-shadow: 5px 0px;
         font-size: 20px;
 
     }
+    .company_icon{
+        width: 25px;
+        height: 25px;
+        margin-left: 10px;
+        margin-right: 5px;
+        margin-top: 2px;
+    }
+    .company_name{
+        font-size: 14px;
+        margin-right: 5px;
+    }
+    .company_date{
+        font-size: 12px;
+    }
+    .status_paid{
+        margin-bottom: 5px;
+        width: 70px;
+        height: 20px;
+
+    }
+    .status{
+        font-size: 14px;
+    }
+    .containter{
+        height: 140px;
+ width: 230px;
+    }
+    
+    
 }

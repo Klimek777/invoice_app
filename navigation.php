@@ -23,7 +23,7 @@
                 <div class="active" style="top:<?php if($_SESSION['open']=='index') {
                     echo " 0%;";
                 } else if($_SESSION['open']=='history') {
-                    echo " 16,6%";
+                    echo " 20%";
                 } else if($_SESSION['open']=='products') {
                     echo " 40%";
                 } else if($_SESSION['open']=='clients') {
