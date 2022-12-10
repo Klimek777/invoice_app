@@ -387,9 +387,10 @@ color: white;
     display: flex;
 }
 .input_text {
-    font-size: 14px;
+    font-size: 13px;
     border: none;
     height: 28px;
+    min-width: 130px;
     width: 100%;
     margin-bottom: 10px;
     padding-left: 7px;
@@ -411,7 +412,7 @@ color: white;
     justify-content: center;
 }
 .product_field input {
-    font-size: 14px;
+    font-size: 13px;
     border: none;
     height: 28px;
     width: 70%;

@@ -13,7 +13,7 @@
 </head>
 <body>
     <?php include 'navigation.php'?>
-    <div class="page" id="new_invoice_page" style="margin-right: 20px;">
+    <div class="page" id="new_invoice_page" style="margin-right: 20px; min-width: 640px;">
         <h1>Nowa faktura</h1>
         <div class="new_invoice"> 
             <header class="new_invoice_header">Wybierz typ faktury:</header>
