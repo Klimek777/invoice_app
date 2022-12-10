@@ -58,6 +58,7 @@
                                 <input class="input_text" id="email" type="text" placeholder="Adres e-mail..."/>
                             </form>
                         </div>
+                        <div style="min-width:5%;"></div>
                         <div class="invoice_form_column_in_row" style="flex:1;">
                             <form action="">
                                 <label class="input_text_label" for="nip">NIP</label><br/>
@@ -85,6 +86,7 @@
                                 <input class="input_text" id="town" type="text" placeholder="Miasto"/>
                             </form>
                         </div>
+                        <div style="min-width:5%;"></div>
                         <div class="invoice_form_column_in_row" style="flex:1;">
                             <form action="">
                                 <label class="input_text_label" for="phone">Nr telefonu</label><br/>
