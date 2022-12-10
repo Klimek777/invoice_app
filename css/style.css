@@ -19,7 +19,6 @@
 .history_header{
     display: flex;
     justify-content: space-between;
-
 }
 
 .side-nav{
@@ -46,7 +45,6 @@ text-decoration: none;
 height: 60%;
 justify-content: space-evenly!important;
 align-content: space-between!important;
-
 }
 
 .nav-links{
@@ -358,6 +356,95 @@ justify-content: center;
 .delete_icon i{
 color: white;
 }
+.new_invoice {
+    border-radius: 12px;
+    background-color: #dfdfdf;
+    margin: 10px;
+}
+.new_invoice_header {
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 22px;
+}
+.new_invoice_main {
+    border-radius: 12px;
+    background-color: #dfdfdf;
+    padding: 10px;
+}
+#new_invoice_row {
+    display: flex;
+}
+.invoice_form_row {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.invoice_form_column_in_row {
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+}
+.input_text {
+    font-size: 14px;
+    border: none;
+    height: 28px;
+    width: 170px;
+    margin-bottom: 10px;
+    padding-left: 7px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px #777;
+}
+.input_text_label {
+    padding-left: 5px;
+    font-size: 13px;
+}
+.product_field {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.product_field_input {
+    display: flex;
+    justify-content: center;
+}
+.product_field input {
+    font-size: 14px;
+    border: none;
+    height: 28px;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px #777;
+    padding-left: 7px;
+}
+.product_header {
+    display: flex;
+    justify-content: space-around;
+}
+.product_header_input {
+    display: flex;
+    justify-content: center;
+}
+.invoice_type {
+    display: flex;
+    justify-content: center;
+}
+.invoice_type button {
+    font-size: 17px;
+    border: none;
+    height: 36px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px #777;
+    padding-left: 7px;
+    background-color: #fafafa;
+}
+.invoice_type button i {
+    padding-right: 10px;
+}
+
 @media only screen and (max-width: 600px){
     .side-nav{
         width: 110px;
@@ -440,7 +527,6 @@ color: white;
         margin-left: 25px;
         font-size: 15px;
     }
-    
 }
 
 
