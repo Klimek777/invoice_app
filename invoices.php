@@ -21,25 +21,20 @@
             <div class="product_field">
                             <div class="invoice_type" style="flex: 1;">
                                 <button class="product_input">
-                                <i class="fa fa-check"></i>
-                                    Opłacona
+                                <i class="fa fa-check"></i>Opłacona</button>
+                            </div>
+                            <hr>
+                            <div class="invoice_type" style="flex: 1;">
+                                <button class="product_input">
+                                    <i class="fa fa-calendar"></i>Płatność od...
                                 </button>
                             </div>
                             <hr>
                             <div class="invoice_type" style="flex: 1;">
                                 <button class="product_input">
-                                    <i class="fa fa-calendar"></i>
-                                    Płatność od...
+                                    <i class="fa fa-calendar"></i>Płatność do...
                                 </button>
                             </div>
-                            <hr>
-                            <div class="invoice_type" style="flex: 1;">
-                                <button class="product_input">
-                                    <i class="fa fa-calendar"></i>
-                                    Płatność do...
-                                </button>
-                            </div>
-                            <hr>
                 </div>
             </div>
         </div>
