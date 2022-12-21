@@ -531,6 +531,42 @@ color: white;
         margin-left: 25px;
         font-size: 15px;
     }
+    .time_button{
+        width: 90px;
+        height: 30px;
+
+    }
+    .time_button text{
+        font-size: 12px!important;
+    }
+    .info_icon{
+
+    height: 25px!important;
+    width: 25px!important;
+    }
+    .info_icon i {
+        font-size: 15px;
+    }
+    .edit_icon{
+
+        height: 25px!important;
+        width: 25px!important;
+        }
+        .edit_icon i {
+            font-size: 15px;
+        }
+        .delete_icon{
+
+            height: 25px!important;
+            width: 25px!important;
+            }
+            .delete_icon i {
+                font-size: 15px;
+            }
+    .transactions_row{
+        height: 70px;
+    }
+
 }
 
 
@@ -575,6 +611,33 @@ color: white;
         height: 140px;
  width: 230px;
     }
+    .info_icon{
+
+        height: 30px;
+        width: 30px;
+        }
+        .info_icon i {
+            font-size: 15px;
+        }
+        .edit_icon{
+    
+            height: 30px;
+            width: 30px;
+            }
+            .edit_icon i {
+                font-size: 15px;
+            }
+            .delete_icon{
+    
+                height: 30px;
+                width: 30px;
+                }
+                .delete_icon i {
+                    font-size: 15px;
+                }
+                .transactions_row{
+                    height: 70px;
+                }
     
     
 }
