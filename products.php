@@ -26,7 +26,6 @@
                 <i class="material-symbols-outlined">arrow_drop_down</i>
 
             </div>
-
         </div>
 
         </div>
