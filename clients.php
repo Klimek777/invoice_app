@@ -14,122 +14,44 @@
 <body>
     <h1>CLIENTS</h1>
     <?php include 'navigation.php'?>
-    <div class="page">
-        <div class="title_row">
-            <div id="title">Customers</div>
-            <div id="plus">+</div>
-            <div id="toptext1">Name</div>
-            <div id="toptext2">Sort by</div>
-            <div style="clear:both"></div>
+    <div class="page" >
+        <div class="top_row" >
+            <div class="customers_header">
+                <text> Odbiorcy </text>
+                <div class="top_button_plus" style="">
+                    <i class="material-symbols-outlined">add</i>
+                </div> 
+                <div class="top_button" style="margin-left: 35%">
+                    <text> Imie </text>
+                    <i class="material-symbols-outlined">arrow_drop_down</i>
+                </div>
+                <div class="top_button" style="margin-left: -10%">
+                    <text> Sortuj </text>
+                    <i class="material-symbols-outlined">arrow_drop_down</i>
+                </div>
         </div>
-        <div class="customers_row1">        
-            <div id="profile">
-                <i class="material-symbols-outlined">
-                    person
-                </i>
+
+    </div>
+        <div class="customers_row">
+            <div class="customer_icon">
+                <i class="material-symbols-outlined">person</i>
             </div>
-            <div id="corp_name">Dawid Corporation S.A</div>
-            <div id="mail">dawidkl8888@gmail.com</div>
-            <div id="phone_number">+48 606 147 7882</div>
-            <div class="adds">
-                <div id="grey" >
-                    <span class="material-symbols-outlined" style="font-size:15px;">
-                        question_mark
-                    </span>
+            <text class="customer_name"> Wiertarex SA </text>
+            <text class="customer_mail"> example@gmail.com </text>
+            <text class="customer_phone"> +48 000 000 000</text>
+            
+            <div class="placing_buttons">
+                <div class="info_icon">
+                    <i class="material-symbols-outlined">info</i>
                 </div>
-                <div id="yellow">
-                    <span class="material-symbols-outlined" style="font-size:15px;">
-                        edit
-                    </span>
+                <div class="edit_icon">
+                    <i class="material-symbols-outlined">edit</i>
                 </div>
-                <div id="red">
-                    <span class="material-symbols-outlined" style="font-size:15px">
-                        delete
-                    </span>
-                </div>
-            </div>
-        </div>
-        <div class="customers_row_next">        
-            <div id="profile">
-                <i class="material-symbols-outlined">
-                    person
-                </i>
-            </div>
-            <div id="corp_name">Dawid Corporation S.A</div>
-            <div id="mail">dawidkl8888@gmail.com</div>
-            <div id="phone_number">+48 606 147 7882</div>
-            <div class="adds">
-                <div id="grey" >
-                    <span class="material-symbols-outlined" style="font-size:15px;">
-                        question_mark
-                    </span>
-                </div>
-                <div id="yellow">
-                    <span class="material-symbols-outlined" style="font-size:15px;">
-                        edit
-                    </span>
-                </div>
-                <div id="red">
-                    <span class="material-symbols-outlined" style="font-size:15px">
-                        delete
-                    </span>
+                <div class="delete_icon">
+                    <i class="material-symbols-outlined">delete</i>
                 </div>
             </div>
         </div>
-          <div class="customers_row_next">        
-            <div id="profile">
-                <i class="material-symbols-outlined">
-                    person
-                </i>
-            </div>
-            <div id="corp_name">Dawid Corporation S.A</div>
-            <div id="mail">dawidkl8888@gmail.com</div>
-            <div id="phone_number">+48 606 147 7882</div>
-            <div class="adds">
-                <div id="grey" >
-                    <span class="material-symbols-outlined" style="font-size:15px;">
-                        question_mark
-                    </span>
-                </div>
-                <div id="yellow">
-                    <span class="material-symbols-outlined" style="font-size:15px;">
-                        edit
-                    </span>
-                </div>
-                <div id="red">
-                    <span class="material-symbols-outlined" style="font-size:15px">
-                        delete
-                    </span>
-                </div>
-            </div>
-        </div>  
-        <div class="customers_row_next">        
-            <div id="profile">
-                <i class="material-symbols-outlined">
-                    person
-                </i>
-            </div>
-            <div id="corp_name">Dawid Corporation S.A</div>
-            <div id="mail">dawidkl8888@gmail.com</div>
-            <div id="phone_number">+48 606 147 7882</div>
-            <div class="adds">
-                <div id="grey" >
-                    <span class="material-symbols-outlined" style="font-size:15px;">
-                        question_mark
-                    </span>
-                </div>
-                <div id="yellow">
-                    <span class="material-symbols-outlined" style="font-size:15px;">
-                        edit
-                    </span>
-                </div>
-                <div id="red">
-                    <span class="material-symbols-outlined" style="font-size:15px">
-                        delete
-                    </span>
-                </div>
-            </div>
-        </div>      
     </div>
     
 </body>
