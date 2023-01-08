@@ -14,10 +14,140 @@
 .product_name{
     font-weight:bold!important;
     color: black;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .prod_description {
-    font-size: 12px;
+    font-size: 14px;
 }
 
+@media only screen and (max-width: 600px){
+    .products_row {
+        height: 75px;
+        width: 95%;
+    }
+    .side-nav{
+        width: 110px;
+    }
+    .nav-links li a p {
+        display: none;
+    }
+
+    .nav-links li a i{
+        margin-right: 0;
+
+    }
+    .nav-links li a {
+        justify-content: center;
+    }
+    .page{
+        margin-left: 130px;
+        margin-top: 20px;
+    }
+    .say-hi text{
+        font-size: 25px;
+    }
+    .say-hi img{
+        width: 40px;
+        height: 40px;
+        margin-right: 5px;
+    }
+    .say-hi button i {
+        font-size: 20px;
+
+    }
+    .company_icon{
+        width: 25px;
+        height: 25px;
+        margin-left: 10px;
+        margin-right: 5px;
+        margin-top: 2px;
+    }
+    .product_name{
+        font-size: 14px;
+        margin-right: 5px;
+    }
+    .prod_description{
+        font-size: 12px;
+    }
+    .info_icon{
+        height: 25px!important;
+        width: 25px!important;
+    }
+        .info_icon i {
+            font-size: 15px;
+    }
+    .edit_icon{
+        height: 25px!important;
+        width: 25px!important;
+    }
+        .edit_icon i {
+            font-size: 15px;
+        }
+    .delete_icon{
+        height: 25px!important;
+        width: 25px!important;
+    }
+        .delete_icon i {
+            font-size: 15px;
+        }
+}
+
+
+/* tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .products_row{
+        height: 75px;
+        width: 90%;
+    }
+    .say-hi text{
+        font-size: 25px;
+    }
+    .say-hi img{
+        width: 40px;
+        height: 40px;
+        margin-right: 5px;
+    }
+    .say-hi button i {
+        font-size: 20px;
+    }
+    .company_icon{
+        width: 25px;
+        height: 25px;
+        margin-left: 10px;
+        margin-right: 5px;
+        margin-top: 2px;
+    }
+    .product_name{
+        font-size: 14px;
+        margin-right: 5px;
+    }
+    .prod_description{
+        font-size: 12px;
+    }
+
+    .info_icon{
+
+        height: 30px;
+        width: 30px;
+        }
+        .info_icon i {
+            font-size: 15px;
+        }
+        .edit_icon{
+    
+            height: 30px;
+            width: 30px;
+            }
+            .edit_icon i {
+                font-size: 15px;
+            }
+            .delete_icon{
+    
+                height: 30px;
+                width: 30px;
+                }
+                .delete_icon i {
+                    font-size: 15px;
+                }
+}
